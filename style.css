@@ -14,6 +14,11 @@ nav,
     justify-content: flex-end;
     gap: 33px;
     margin: 27px 60px 0 0;
+    color: #000000;
+}
+
+.menu a {
+    font-family: 'Heebo';
     font-weight: 500;
     font-size: 20px;
     color: #000000;
@@ -28,6 +33,8 @@ nav,
 }
 
 h1 {
+    font-family: 'Heebo';
+    font-weight: 700;
     line-height: 60px;
     width: 506px;
     height: 105px;
@@ -43,6 +50,7 @@ h1 {
 }
 
 .content-hero p {
+    font-family: 'Heebo';
     font-weight: 400;
     font-size: 16px;
     margin-top: 40px;
@@ -50,6 +58,7 @@ h1 {
 }
 
 button {
+    font-family: 'Heebo';
     width: 208px;
     height: 47px;
     background: #FF6464;
@@ -80,12 +89,14 @@ button {
 }
 
 .recent-header {
+    font-family: 'Heebo';
     font-weight: 400;
     font-size: 22px;
     color: #21243D;
 }
 
 .recent-subheader {
+    font-family: 'Heebo';
     font-weight: 400;
     font-size: 16px;
     color: #00A8CC;
@@ -110,11 +121,20 @@ button {
     font-weight: 700;
     font-size: 26px;
     color: #21243D;
+    margin-bottom: 30px;
+}
+
+.vertical-line {
+    font-family: 'Heebo';
 }
 
 .vertical-line span {
     border-right: 2px solid black;
     margin: 0 20px;
+}
+
+.vertical-line h3 {
+    margin-bottom: 27px;
 }
 
 .socials {
@@ -124,7 +144,71 @@ button {
     margin-top: 135px;
 }
 
+.works {
+    margin: 0 auto;
+    width: 858px;
+}
+
+.works img {
+    width: 246px;
+    height: 180px;
+    border-radius: 6px;
+}
+
+.works-title {
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: 36px;
+    color: #21243D;
+}
+
+.works li {
+    display: flex;
+    gap: 18px;
+    width: 699px;
+    padding: 35px 0;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.works h4 {
+    font-family: 'Heebo';
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+
+.works h5 {
+    font-family: 'Heebo';
+    margin-bottom: 16px;
+}
+
+.content p {
+    font-family: 'Heebo';
+    font-weight: 400;
+}
+
+.works span {
+    display: inline-block;
+    text-align: center;
+    width: 62px;
+    height: 25px;
+    margin-right: 26px;
+    border-radius: 16px;
+    background-color: #142850;
+    font-weight: 900;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.works ul {
+    margin: 0 auto;
+    width: 858px;
+}
+
 .footer-text {
+    font-family: 'Heebo';
+    font-weight: 400;
     text-align: center;
     margin-top: 26px;
     margin-bottom: 101px;
